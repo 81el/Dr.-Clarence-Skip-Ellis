@@ -1,0 +1,110 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Menu de Navegação */
+header {
+    background-color: #1a1a2e;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00adb5;
+}
+
+/* Container Principal */
+.bio-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+h1 {
+    color: #1a1a2e;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin: 1.5rem 0 1rem 0;
+    color: #162447;
+    border-bottom: 2px solid #f4f4f9;
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.8rem;
+}
+
+/* Estilização do Formulário de Login/Cadastro */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00adb5;
+}
+
+button {
+    padding: 12px;
+    background-color: #1a1a2e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #00adb5;
+}
